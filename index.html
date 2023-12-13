@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1 id="header" onmouseover="changeBackgroundColor()">Welcome to the Interactive Page</h1>
+<div class="box">
+    <p id="changeableText">This is a paragraph. Click the button to change me!</p>
+
+    <button id="changeButton">Click me!</button>
+
+    <form>
+        <label for="userInput">Type something:</label>
+        <input type="text" id="userInput" placeholder="Type here">
+        <button type="button" onclick="displayUserInput()">Submit</button>
+    </form>
+
+    <p id="userInputDisplay"></p>
+
+   
+</div>
+</body>
+</html>
